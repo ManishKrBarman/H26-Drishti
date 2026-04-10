@@ -1,10 +1,4 @@
 /**
- * ╔══════════════════════════════════════════════════╗
- * ║          Drishti SDK — drishti.js v1.0           ║
- * ║   Plug-and-play AI marketing optimization        ║
- * ╚══════════════════════════════════════════════════╝
- *
- * Usage:
  *   <script>
  *     window.DrishtiConfig = {
  *       apiKey: "demo123",
