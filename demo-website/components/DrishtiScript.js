@@ -9,7 +9,7 @@ export default function DrishtiScript() {
       <Script id="drishti-config" strategy="beforeInteractive">
         {`
           window.DrishtiConfig = {
-            apiKey: "demo123",
+            apiKey: "dsk_858fbee52fe9ee1881d828e216b01025",
             apiUrl: "http://localhost:5000/analyze",
             emotionUrl: "http://localhost:5000/detect-emotion",
             selectors: {

@@ -28,6 +28,33 @@ const products = [
     rating: 4.7,
     reviews: 521,
   },
+  {
+    name: "Zenith True Wireless Earbuds",
+    price: "₹3,999",
+    originalPrice: "₹5,499",
+    image: "/product-earbuds.png",
+    tag: "Trending",
+    rating: 4.5,
+    reviews: 412,
+  },
+  {
+    name: "Titan Mechanical Keyboard",
+    price: "₹7,999",
+    originalPrice: "₹9,999",
+    image: "/product-keyboard.png",
+    tag: "Gamer Choice",
+    rating: 4.9,
+    reviews: 876,
+  },
+  {
+    name: "Vortex Gaming Mouse",
+    price: "₹4,499",
+    originalPrice: "₹5,999",
+    image: "/product-mouse.png",
+    tag: "Sale",
+    rating: 4.6,
+    reviews: 230,
+  },
 ];
 
 function StarRating({ rating }) {
