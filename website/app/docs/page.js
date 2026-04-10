@@ -251,7 +251,7 @@ export default function DocsPage() {
             <CodeBlock>{`<script>
   window.DrishtiConfig = {
     apiKey: "YOUR_API_KEY",
-    apiUrl: "http://localhost:5000/analyze",
+    apiUrl: "https://drishti-backend-vbyb.onrender.com/analyze",
     selectors: {
       headline: "#headline",
       cta: "#cta"
@@ -286,8 +286,8 @@ export default function DocsPage() {
               <tbody>
                 {[
                   ["apiKey", "string", '"demo123"', "Your Drishti API key"],
-                  ["apiUrl", "string", '"http://localhost:5000/analyze"', "Backend analyze endpoint"],
-                  ["emotionUrl", "string", '"http://localhost:5000/detect-emotion"', "Emotion detection endpoint"],
+                  ["apiUrl", "string", '"https://drishti-backend-vbyb.onrender.com/analyze"', "Backend analyze endpoint"],
+                  ["emotionUrl", "string", '"https://drishti-backend-vbyb.onrender.com/detect-emotion"', "Emotion detection endpoint"],
                   ["selectors.headline", "string", '"#headline"', "CSS selector for the headline element"],
                   ["selectors.cta", "string", '"#cta"', "CSS selector for the CTA button"],
                   ["interval", "number", "5000", "How often to send data (ms)"],
