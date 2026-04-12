@@ -7,9 +7,7 @@ langchain-groq
 
 openai
 
-
-tensorflow-cpu
-opencv-python-headless
+opencv-python
 deepface
 
 pydantic
